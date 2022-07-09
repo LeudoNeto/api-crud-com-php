@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>API CRUD</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <a href="read.php" style="text-decoration: none;"><button class="read-button" role="button"><span class="text">READ</span></button></a>
+
+  </body>
+</html>
+
+
 <?php
 require_once "Person.php";
 
