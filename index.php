@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="styles/index.css">
   </head>
   <body>
-  <td><form><button name='id' style='text-decoration: none;' value='$line_id' class='edit-icon'><img height='20' src='https://cdn-icons-png.flaticon.com/512/1160/1160758.png' ></button></form><td>
 
     <div class="content">
       <h1>SELECIONE A AÇÃO:</h1>
@@ -18,47 +17,3 @@
 
   </body>
 </html>
-
-
-<?php
-// require_once "Person.php";
-
-// header("Content_Type: application/json");
-// $data = [];
-
-// $fn = $_REQUEST["fn"] ?? null;
-// $id = $_REQUEST["id"] ?? 0;
-// $name = $_REQUEST["name"] ?? null;
-// $age = $_REQUEST["age"] ?? null;
-
-// $person = new Person;
-// $person->setId($id);
-
-// if ($fn === "create" && $name !== null && $age !== null)
-// {
-//     $person->setName($name);
-//     $person->setAge($age);
-//     $data["person"] = $person->create();
-// }
-
-// if ($fn === "read") 
-// {
-//     $data["person"] = $person->read();
-// }
-
-// if ($fn === "update" && $name !== null && $age !== null)
-// {
-//     $person->setName($name);
-//     $person->setAge($age);
-//     $data["person"] = $person->update();
-// }
-
-// if ($fn === "delete" && $id > 0)
-// {
-//     $data["person"] = $person->delete();
-// }
-
-
-// die(json_encode($data));
-
-?>

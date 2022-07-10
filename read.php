@@ -7,7 +7,7 @@
   </head>
   <body>
 
-  <a href="index.php"><img height="50" src="https://cdn-icons.flaticon.com/png/512/4880/premium/4880639.png?token=exp=1657406846~hmac=faeaa56c6e3dd7b3fd2f37da6b9c5680"></a>
+  <a href="index.php"><img height="50" src="img/home.png"></a>
 
     <table class="styled-table">
         <thead>

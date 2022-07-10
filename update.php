@@ -7,7 +7,7 @@
     </head>
     <body>
 
-        <a href="index.php"><img height="50" src="https://cdn-icons.flaticon.com/png/512/4880/premium/4880639.png?token=exp=1657406846~hmac=faeaa56c6e3dd7b3fd2f37da6b9c5680"></a>
+        <a href="index.php"><img height="50" src="img/home.png"></a>
 
         <form>
         <table class="styled-table">
@@ -75,7 +75,7 @@
             print("<td>".$line["id"]."</td>");
             print("<td>".$line["name"]."</td>");
             print("<td>".$line["age"]."</td>");
-            print("<td><form><button style='border: 0px solid black; cursor: pointer;' name='id' value='$line_id' class='edit-icon'><img height='20' src='https://cdn-icons-png.flaticon.com/512/1160/1160758.png' ></button></form><td>");
+            print("<td><form><button style='border: 0px solid black; cursor: pointer;' name='id' value='$line_id' class='edit-icon'><img height='20' src='img/edit.png' ></button></form><td>");
             print("</tr>");
         }
 
