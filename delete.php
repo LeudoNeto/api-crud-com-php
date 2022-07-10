@@ -8,6 +8,21 @@
     <body>
 
         <a href="index.php"><img height="50" src="img/home.png"></a>
+
+        <table class="styled-table" id="search-table">
+            <thead>
+            <tr>
+                <th>Deleta por ID</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <form>
+                <td><input type="number" name='id'><button id="search" style='border: 0px solid black; cursor: pointer;' class='edit-icon'><img height='20' src='img/delete.png' ></button></td>
+                </form>
+            </tr>
+            </tbody>
+        </table>
    
     <table class="styled-table">
             <thead>

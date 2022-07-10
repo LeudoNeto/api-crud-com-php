@@ -37,6 +37,14 @@
     color: #009879;
 }
 
+#search-table {
+    min-width: 200px;
+}
+
+#search {
+    margin-left: 10px;
+}
+
 .crud-button {
     margin-top: 1em;
     margin-left: auto;
