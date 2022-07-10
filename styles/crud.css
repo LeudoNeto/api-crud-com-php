@@ -68,3 +68,12 @@
     -webkit-user-select: none;
     touch-action: manipulation;
   }
+
+.edit-icon {
+    opacity: 0.6;
+    background:url("https://cdn-icons-png.flaticon.com/512/1160/1160758.png");
+}
+
+.edit-icon:hover {
+    opacity: 1;
+}

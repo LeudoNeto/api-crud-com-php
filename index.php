@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles/index.css">
   </head>
   <body>
+  <td><form><button name='id' style='text-decoration: none;' value='$line_id' class='edit-icon'><img height='20' src='https://cdn-icons-png.flaticon.com/512/1160/1160758.png' ></button></form><td>
 
     <div class="content">
       <h1>SELECIONE A AÇÃO:</h1>
