@@ -41,6 +41,20 @@
                 $person->setName($name);
                 $person->setAge($age);
                 $data = $person->create();
+                print("<table class='styled-table'>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>");
+        print("<tr>");
+        print("<td>".$data[0]["id"]."</td>");
+        print("<td>".$data[0]["name"]."</td>");
+        print("<td>".$data[0]["age"]."</td>");
+        print("</tr>");
             }
 
         ?>
