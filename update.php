@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>API CRUD</title>
-        <link rel="stylesheet" href="styles/crud.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
@@ -35,7 +35,7 @@
 
         </table>
 
-        <input type="submit" value="UPDATE" class="crud-button">
+        <input type="submit" value="UPDATE" id="update" class="crud-button">
         
         </form>
 

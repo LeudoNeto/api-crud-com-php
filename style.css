@@ -1,0 +1,169 @@
+.index {
+    padding-top: 3em;
+    padding-left: auto;
+    padding-right: auto;
+    margin: 0;
+    background-color: white;
+    border: 2.5em solid;
+    border-image: linear-gradient(90deg, #009879 20%, #76a59c) 1;
+    height: 100%;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+#search-table {
+    min-width: 200px;
+}
+
+#search {
+    margin-left: 10px;
+}
+
+#create-button, #update-button {
+    background-image: linear-gradient(90deg, #009879 20%, #36a38f);
+    font-size: 3em;
+}
+  
+  #read-button, #delete-button {
+    background-image: linear-gradient(90deg, #36a38f 20%, #76a59c);
+    font-size: 3em;
+}
+
+.crud-button {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-image: linear-gradient(90deg, #009879 20%, #76a59c);
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: "Codec cold",sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    height: 3em;
+    width: 6em;
+    justify-content: center;
+    letter-spacing: .4px;
+    line-height: 1;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#read-button:active, #create-button:active, #delete-button:active, #update-button:active {
+    outline: 0;
+}
+  
+#read-button:hover, #create-button:hover, #delete-button:hover, #update-button:hover {
+    outline: 0;
+}
+  
+#read-button span, #create-button span, #delete-button span, #update-button span {
+    transition: all 200ms;
+}
+  
+#read-button:hover span, #create-button:hover span, #delete-button:hover span, #update-button:hover span {
+    transform: scale(.9);
+    opacity: .75;
+}
+  
+@media screen and (max-width: 991px) {
+    #read-button, #create-button, #update-button, #delete-button {
+      font-size: 15px;
+      height: 50px;
+    }
+  
+    #read-button span, #create-button span, #delete-button span, #update-button span {
+      line-height: 50px;
+    }
+  }
+
+.edit-icon {
+    opacity: 0.6;
+    background:url("https://cdn-icons-png.flaticon.com/512/1160/1160758.png");
+}
+
+.edit-icon:hover {
+    opacity: 1;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 3em;
+    text-align: center;
+}
+  
+#create-button {
+    position: relative;
+    right: 5em;
+    
+}
+  
+#read-button {
+    position: relative;
+    left: 4em;
+    bottom: 3em;
+}
+  
+#update-button {
+    position: relative;
+    right: 5em;
+    bottom: 1.5em;
+}
+  
+#delete-button {
+    position: relative;
+    left: 4em;
+    bottom: 4.5em;
+}
+
+#create, #update {
+    margin-top: 1em;
+}

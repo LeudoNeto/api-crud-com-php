@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>API CRUD</title>
-        <link rel="stylesheet" href="styles/crud.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
@@ -26,7 +26,7 @@
 
         </table>
 
-        <input type="submit" value="CREATE" class="crud-button">
+        <input type="submit" value="CREATE" id="create" class="crud-button">
         
         <?php
             require_once "Person.php";

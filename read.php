@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>API CRUD</title>
-    <link rel="stylesheet" href="styles/crud.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
 
